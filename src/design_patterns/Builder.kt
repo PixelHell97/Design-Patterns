@@ -50,10 +50,12 @@ class Pizza private constructor(pizzaBuilder: PizzaBuilder) {
 }
 
 fun main() {
+
     val pizza = Pizza.PizzaBuilder()
         .setSize("Large")
         .addCheese()
-        .addPepperoni()
+        //TODO (notice here when we remove one method the code still work)
+        //.addPepperoni()
         .addMushrooms()
         .build()
 

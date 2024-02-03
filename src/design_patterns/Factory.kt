@@ -23,7 +23,7 @@ class Pentagon : Shape {
     }
 }
 
-// Factory class
+//  Factory class
 object ShapeFactory {
     fun getShape(numberOfRips: Int): Shape? {
         return when (numberOfRips) {
